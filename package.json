@@ -1,0 +1,20 @@
+{
+  "name": "server-container",
+  "version": "1.0.0",
+  "description": "server container.",
+  "keywords": [
+    "blog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/server-container.git"
+  },
+  "devDependencies": {
+    "pm2": "~0.15.10",
+    "startserver": "~1.2.2"
+  },
+  "author": "xudafeng",
+  "email": "xudafeng@126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "apps": [{
+    "name": "server-container",
+    "script": "./node_modules/.bin/startserver",
+    "args": ["-p", "8082", "-s"],
+    "exec_mode": "cluster",
+    "instances": 1,
+    "exec_interpreter": "none"
+  }]
+}
